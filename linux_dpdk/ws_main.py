@@ -1334,7 +1334,6 @@ class build_option:
         flags += ['-std=c++0x']
 
         flags += ['-Wall',
-                  '-Werror',
                   '-Wno-literal-suffix',
                   '-Wno-sign-compare',
                   '-Wno-strict-aliasing']

@@ -28,6 +28,12 @@
 #include "e1000_ethdev.h"
 #include "igb_regs.h"
 
+struct igb_ntuple_filter_list igb_filter_ntuple_list;
+struct igb_ethertype_filter_list igb_filter_ethertype_list;
+struct igb_syn_filter_list igb_filter_syn_list;
+struct igb_flex_filter_list igb_filter_flex_list;
+struct igb_rss_filter_list igb_filter_rss_list;
+struct igb_flow_mem_list igb_flow_list;
 /*
  * Default values for port configuration
  */
